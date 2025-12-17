@@ -2,8 +2,6 @@
 import argparse
 import config
 
-print(config.server_env.WALLET_ADDRESS)
-
 from src.server import run_server
 from src.client import run_client
 
